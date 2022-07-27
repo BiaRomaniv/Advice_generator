@@ -1,10 +1,18 @@
+import { Post } from "./Post";
 
-function App() {
+export function App() {
 
 
   return (
-    <h1>Hello Word</h1>
+    <div>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+
+    </div>
   )
 }
 
-export default App
+
